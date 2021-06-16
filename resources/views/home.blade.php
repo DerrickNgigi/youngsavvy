@@ -37,7 +37,7 @@
                         <div class="banner-content pb-5">
                             <br>
                             <div class="desc white-color mb-10 wow fadeInRight" data-wow-delay="400ms" data-wow-duration="3000ms">Exploring Science, Engineering and Technology Concepts</div>
-                            <div class="desc white-color mb-40 wow fadeInRight" data-wow-delay="400ms" data-wow-duration="3000ms">Cohort One begins April 5th. Register Now</div>
+{{--                            <div class="desc white-color mb-40 wow fadeInRight" data-wow-delay="400ms" data-wow-duration="3000ms">Cohort One begins April 5th. Register Now</div>--}}
                             <div class="banner-btn wow fadeInUp" data-wow-delay="500ms" data-wow-duration="3000ms">
                                 <a class="readon2 banner-style" href="/RoboticsAndProgrammingRegistration">Click to Register</a>
                             </div>
@@ -48,9 +48,8 @@
                             <img src="<?php echo url('/'); ?>/images/banner/banner-line.png" alt="Banner Circle Shape">
                         </div>
                         <div class="banner-content pb-5">
-                            <h6 class="banner-title white-color wow fadeInLeft" data-wow-delay="300ms" data-wow-duration="3000ms">Registration for April Holiday Robotics and Programming BootCamp</h6>
-                            <div class="desc white-color mb-41 wow fadeInRight" data-wow-delay="400ms" data-wow-duration="3000ms">Bringing robotics, coding and 3D printing in the hands of Young Generation. Different Programs for Age(9-18) available.</div>
-                            <div class="desc white-color mb-41 wow fadeInRight" data-wow-delay="400ms" data-wow-duration="3000ms"></div>
+                            <h6 class="banner-title white-color wow fadeInLeft" data-wow-delay="300ms" data-wow-duration="3000ms">Bringing robotics, coding and 3D printing in the hands of Young Generation. Different Programs for Age(9+) available.</h6>
+{{--                            <div class="desc white-color mb-41 wow fadeInRight" data-wow-delay="400ms" data-wow-duration="3000ms"></div>--}}
                         </div>
                         <div class="banner-circle-shape js-tilt">
                             <img src="<?php echo url('/'); ?>/images/banner/banner-circle.png" alt="Banner Circle Shape">
@@ -100,6 +99,37 @@
                     </div>
                 </div>
                 <div class="rs-carousel owl-carousel" data-loop="true" data-items="3" data-margin="30" data-autoplay="true" data-hoverpause="true" data-autoplay-timeout="5000" data-smart-speed="800" data-dots="false" data-nav="true" data-nav-speed="false" data-center-mode="false" data-mobile-device="1" data-mobile-device-nav="false" data-mobile-device-dots="false" data-ipad-device="2" data-ipad-device-nav="false" data-ipad-device-dots="false" data-ipad-device2="2" data-ipad-device-nav2="false" data-ipad-device-dots2="false" data-md-device="3" data-md-device-nav="false" data-md-device-dots="false">
+
+                    <div class="courses-item">
+                        <div class="img-part">
+                            <img src="<?php echo url('/'); ?>/images/courses/12.png" alt="">
+                        </div>
+                        <div class="content-part">
+                            <span><a class="categories" href="/learning-microwings-atmel">Programming Microwings ATMEL</a></span>
+                            <ul class="meta-part">
+                                {{--                                <li class="user"><i class="fa fa-user"></i> 204</li>--}}
+                                {{--                                <li><span class="price">$55.00</span></li>--}}
+                            </ul>
+                            <h3 class="title"><a href="/learning-microwings-atmel">Learn Industrial Electrical and Hardware Programming with AVR</a></h3>
+                            <div class="bottom-part">
+                                <div class="info-meta">
+                                    <ul>
+                                        <li class="ratings">
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="btn-part">
+                                    <a href="/learning-microwings-atmel">Apply Now<i class="flaticon-right-arrow"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
                     <div class="courses-item">
                         <div class="img-part">
                             <img src="<?php echo url('/'); ?>/images/courses/7.jpg" alt="">
@@ -325,7 +355,7 @@
             </div>
             <div class="cta-content text-center">
                 <div class="sec-title mb-40 md-mb-20 wow fadeInUp" data-wow-delay="300ms" data-wow-duration="2000ms">
-                    <h2 class="title mb-16 md-mb-10 text-info">Admission Open for 2021</h2>
+                    <h2 class="title mb-16 md-mb-10 text-info">Admission Open</h2>
 {{--                    <div class="desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed eius to mod tempor incididunt ut labore et dolore magna aliqua. Ut enims ad minim veniam. Aenean massa. Cum sociis natoque penatibus et magnis.</div>--}}
                 </div>
                 <div class="btn-part wow fadeInUp" data-wow-delay="300ms" data-wow-duration="2000ms">

@@ -50,3 +50,7 @@ Route::get('/learn-3d-printing-in-nairobi-kenya', function () {
 Route::get('/RoboticsAndProgrammingRegistration', function () {
     return view('AdBlogs.RoboticsAndProgrammingDemo');
 });
+
+Route::get('/learning-microwings-atmel', function () {
+    return view('course.MicroWings-Atmel_course');
+});

@@ -106,7 +106,7 @@ Placing robotics, coding and 3D Printing at your finger tips in Nairobi, Kenya
                     <div class="row y-bottom">
                         <div class="col-lg-6 pb-50 md-pt-70 md-pb-70">
                             <div class="video-wrap">
-                                <a class="popup-videos" href="https://www.youtube.com/watch?v=atMUy_bPoQI">
+                                <a class="popup-videos" href="https://vimeo.com/563602301">
                                     <i class="fa fa-play"></i>
                                     <h4 class="title mb-0">Young Savvy Centre</h4>
                                 </a>
@@ -114,7 +114,7 @@ Placing robotics, coding and 3D Printing at your finger tips in Nairobi, Kenya
                         </div>
                         <div class="col-lg-6 pl-62 pt-134 pb-150 md-pt-50 md-pb-50 md-pl-15">
                             <div class="sec-title mb-40 md-mb-20">
-                                <h2 class="title mb-16">Admission Open for 2021</h2>
+                                <h2 class="title mb-16">Admission Open</h2>
                             </div>
                             <div class="btn-part">
                                 <a class="readon2 orange" href="/robotics-and-coding-courses-in-nairobi-kenya">Apply Now</a>
@@ -213,7 +213,7 @@ Placing robotics, coding and 3D Printing at your finger tips in Nairobi, Kenya
                         <img src="<?php echo url('/'); ?>/images/team/1.png" alt="">
                         <div class="content-part">
                             <h4 class="name"><a href="team-single.html">Ngigi Derrick</a></h4>
-                            <span class="designation">Lead Facilitator</span>
+                            <span class="designation">Program Lead</span>
                             <ul class="social-links">
 {{--                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>--}}
 {{--                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>--}}

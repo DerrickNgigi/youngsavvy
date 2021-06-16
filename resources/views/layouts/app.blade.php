@@ -393,6 +393,12 @@ src="https://www.facebook.com/tr?id=245212987068596&ev=PageView&noscript=1"
                         <li><a href="/robotics-and-coding-courses-in-nairobi-kenya">Courses</a></li>
                         <li><a class="hidden-xs rs-search" data-target="#register-modal" data-toggle="modal" href="">Login/Register</a></li>
                     </ul>
+                    <br>
+                    <br>
+                    <h3 class="widget-title">Powered by</h3>
+                    <ul class="site-map">
+                        <li><a href="https://www.fainatech.com" target="_blank">Faina Consultancy Limited</a></li>
+                    </ul>
                 </div>
                 {{--                <div class="col-lg-3 col-md-12 col-sm-12 footer-widget">--}}
                 {{--                    <h3 class="widget-title">Recent Posts</h3>--}}

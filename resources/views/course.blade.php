@@ -154,7 +154,6 @@
                                 </div>
                             </div>
                         </div>
-                    </div><div class="col-lg-2 col-md-6 md-mb-30">
                     </div>
                     <div class="col-lg-4 col-md-6 md-mb-30">
                         <div class="course-wrap">
@@ -226,13 +225,47 @@
                             </div>
                         </div>
                     </div>
+                    <div class="col-lg-4 col-md-6 sm-mb-30">
+                        <div class="course-wrap">
+                            <div class="front-part">
+                                <div class="img-part">
+                                    <img src="<?php echo url('/'); ?>/images/courses/12.png" alt="">
+                                </div>
+                                <div class="content-part">
+                                    <a class="categorie" href="/learn-3d-printing-in-nairobi-kenya">MicroWings Atmel</a>
+                                    <h4 class="title"><a href="/learn-3d-printing-in-nairobi-kenya">Learn Industrial Electrical and Hardware Programming with AVR</a></h4>
+                                </div>
+                            </div>
+                            <div class="inner-part">
+                                <div class="content-part">
+                                    <a class="categorie" href="/learn-3d-printing-in-nairobi-kenya">MicroWings Atmel</a>
+                                    <h4 class="title"><a href="/learn-3d-printing-in-nairobi-kenya">Learn Industrial Electrical and Hardware Programming with AVR</a></h4>
+                                    <ul class="course-meta">
+                                        <li class="course-user"><i class="fa fa-user"></i> 95</li>
+                                        <li class="ratings">
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                        </li>
+                                    </ul>
+                                    <br>
+                                    <br>
+                                    <div class="btn-part">
+                                        {{--                                <a href="#" class="btn readon2 orange">$35</a>--}}
+                                        <a href="/learning-microwings-atmel" class="btn readon2 orange-transparent">Check Course</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div class="pagination-area orange-color text-center mt-60 md-mt-30">
                     <ul class="pagination-part">
                         <li class="active"></li>
 {{--                        <li><a href="#">2</a></li>--}}
 {{--                        <li><a href="#">Next <i class="fa fa-long-arrow-right"></i></a></li>--}}
-                    </ul>
                 </div>
             </div>
         </div>

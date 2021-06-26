@@ -1,33 +1,32 @@
 @extends('layouts.app')
 @section('content')
-@section('content')
     @section('title')
         Enquire about Robotics, Coding and 3D Printing in Nairobi, Kenya
         @endsection
 
-@section('meta_data')
-<meta property="og:type" content="website"/>
-<meta property="og:site_name" content="Young Savy Engineering Center"/>
-<meta property="og:title" content=" Enquire about Robotics, Coding and 3D Printing in Nairobi, Kenya "/>
-<meta property="og:description" content="We place robotics, coding and 3D Printing at your finger tips."/>
-<meta property="og:url" content="{{url('/enquire-about-robotics-coding-and-3D-printing-in-nairobi-kenya')}}"/>
-<meta property="og:image" content="{{url('display/assets/favicon.png')}}"/>
-<meta name="title" content="The Best Robotics and Coding Courses in Nairobi, Kenya and East Africa"/>
-<meta name="robots" content="index,follow"/>
-<meta name="description" content="Reach out to us to know more on engineering, robotics coding through clearly structured standard based projects where children investigate, model and design solutions."/>
-<meta name="keywords" content="robotics engineering in kenya, nairobi robotics, artificial intelligence in kenya, programming in kenya, 3D printing in kenya, coding in kenya, robotics courses in kenya">
-<meta property="fb:pages" content=""/>
-<meta property="fb:app_id" content=""/>
-<link rel="canonical" href="{{url('/enquire-about-robotics-coding-and-3D-printing-in-nairobi-kenya')}}">
-<link rel="shortlink" href="{{url('/enquire-about-robotics-coding-and-3D-printing-in-nairobi-kenya')}}" />
-<link rel="next" href="{{url('/enquire-about-robotics-coding-and-3D-printing-in-nairobi-kenya')}}">
-<meta name="MobileOptimized" content="width" />
-<meta name="HandheldFriendly" content="true" />
-<meta name="twitter:site" content="@YoungSavvyEngCenter">
-<meta name="twitter:title" content="Exploring Robotics, Coding and 3D printing in Nairobi, Kenya"/>
-<meta name="twitter:description" content="We provide a platform for young people to ignite curiosity and enhance their skills in science, engineering, robotics coding through clearly structured standard based projects where children investigate, model and design solutions.">
-<meta name="google-site-verification" content="" />
-@endsection
+    @section('meta_data')
+    <meta property="og:type" content="website"/>
+    <meta property="og:site_name" content="Young Savy Engineering Center"/>
+    <meta property="og:title" content=" Enquire about Robotics, Coding and 3D Printing in Nairobi, Kenya "/>
+    <meta property="og:description" content="We place robotics, coding and 3D Printing at your finger tips."/>
+    <meta property="og:url" content="{{url('/enquire-about-robotics-coding-and-3D-printing-in-nairobi-kenya')}}"/>
+    <meta property="og:image" content="{{url('display/assets/favicon.png')}}"/>
+    <meta name="title" content="The Best Robotics and Coding Courses in Nairobi, Kenya and East Africa"/>
+    <meta name="robots" content="index,follow"/>
+    <meta name="description" content="Reach out to us to know more on engineering, robotics coding through clearly structured standard based projects where children investigate, model and design solutions."/>
+    <meta name="keywords" content="robotics engineering in kenya, nairobi robotics, artificial intelligence in kenya, programming in kenya, 3D printing in kenya, coding in kenya, robotics courses in kenya">
+    <meta property="fb:pages" content=""/>
+    <meta property="fb:app_id" content=""/>
+    <link rel="canonical" href="{{url('/enquire-about-robotics-coding-and-3D-printing-in-nairobi-kenya')}}">
+    <link rel="shortlink" href="{{url('/enquire-about-robotics-coding-and-3D-printing-in-nairobi-kenya')}}" />
+    <link rel="next" href="{{url('/enquire-about-robotics-coding-and-3D-printing-in-nairobi-kenya')}}">
+    <meta name="MobileOptimized" content="width" />
+    <meta name="HandheldFriendly" content="true" />
+    <meta name="twitter:site" content="@YoungSavvyEngCenter">
+    <meta name="twitter:title" content="Exploring Robotics, Coding and 3D printing in Nairobi, Kenya"/>
+    <meta name="twitter:description" content="We provide a platform for young people to ignite curiosity and enhance their skills in science, engineering, robotics coding through clearly structured standard based projects where children investigate, model and design solutions.">
+    <meta name="google-site-verification" content="" />
+    @endsection
 
     <!-- Main content Start -->
     <div class="main-content">

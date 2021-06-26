@@ -115,6 +115,7 @@ src="https://www.facebook.com/tr?id=245212987068596&ev=PageView&noscript=1"
                                 <li><a href="/explore-build-program-robots-in-nairobi-kenya" title="Placing robotics, coding and 3D Printing at your finger tips in Nairobi, Kenya">About</a> </li>
                                 <li><a href="/robotics-and-coding-courses-in-nairobi-kenya">Courses</a> </li>
                                 <li><a href="/enquire-about-robotics-coding-and-3D-printing-in-nairobi-kenya">Contact</a> </li>
+                                <li><a href="/our_testmonials">Our Journey</a> </li>
                                 <li class="nav-item d-lg-none "><a class="hidden-xs rs-search" data-target="#login-modal" data-toggle="modal" href=""  >Login</a></li>
                                 <li class="nav-item d-lg-none "><a class="hidden-xs rs-search" data-target="#register-modal" data-toggle="modal" href="" >Register</a></li>
 

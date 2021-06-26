@@ -54,3 +54,11 @@ Route::get('/RoboticsAndProgrammingRegistration', function () {
 Route::get('/learning-microwings-atmel', function () {
     return view('course.MicroWings-Atmel_course');
 });
+
+Route::get('/our_testmonials', function () {
+    return view('testimonials');
+});
+
+Route::get('/gameoftheyoungsavvy', function () {
+    return view('games.gameoftheyoungsavvy');
+});

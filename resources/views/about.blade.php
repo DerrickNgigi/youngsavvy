@@ -235,6 +235,19 @@ Placing robotics, coding and 3D Printing at your finger tips in Nairobi, Kenya
                             </ul>
                         </div>
                     </div>
+                    <div class="team-item">
+                        <img src="<?php echo url('/'); ?>/images/team/1.png" alt="">
+                        <div class="content-part">
+                            <h4 class="name"><a href="team-single.html">Emmanuel Mwanik</a></h4>
+                            <span class="designation">Lead Electrical Designer</span>
+                            <ul class="social-links">
+                                {{--                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>--}}
+                                {{--                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>--}}
+                                {{--                                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>--}}
+                                {{--                                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>--}}
+                            </ul>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

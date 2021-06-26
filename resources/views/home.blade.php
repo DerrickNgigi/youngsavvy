@@ -293,7 +293,7 @@
                     <div class="col-lg-6">
                         <div class="img-part media-icon">
                             <img class="video-img" src="<?php echo url('/'); ?>/images/about/about-video-bg2.png" alt="Video Image">
-                            <a class="popup-videos" href="https://player.vimeo.com/video/462312591">
+                            <a class="popup-videos" href="">
                                 <i class="fa fa-play"></i>
                             </a>
                             <img class="dot-shape js-tilt" src="<?php echo url('/'); ?>/images/about/dot-shape.png" alt="Shape">

@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\sharpNeuronParticipant;
+use Carbon\Carbon;
 use Illuminate\Http\Request;
 
 class SharpNeuronParticipantController extends Controller
@@ -14,7 +15,8 @@ class SharpNeuronParticipantController extends Controller
      */
     public function index()
     {
-        //
+        //Return game view
+        return view ('games.sharpneurongame');
     }
 
     /**
@@ -35,7 +37,23 @@ class SharpNeuronParticipantController extends Controller
      */
     public function store(Request $request)
     {
-        //
+
+        // Form validation
+        $this->validate($request, [
+            'first_name' => 'required',
+            'last_name' => 'required',
+            'birthday' => 'required',
+            'gender' => 'required',
+            'school' => 'required',
+            'grade' => 'required',
+            'parent_email' => 'required',
+            'parent_number' => 'required',
+            'home_area' => 'required'
+        ]);
+        $child_Info = $request->all();
+        $child_Info['birthday'] = Carbon::createFromFormat(config('app.date_format'), $request->birthday)->format('Y-m-d');
+        sharpNeuronParticipant::create($child_Info );
+        return redirect()->away('https://kahoot.it/');
     }
 
     /**

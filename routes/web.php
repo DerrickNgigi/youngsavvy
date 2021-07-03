@@ -12,7 +12,7 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
-
+use App\Http\Controllers\SharpNeuronParticipantController;
 Route::get('/', function () {
     return view('home');
 });
@@ -59,6 +59,9 @@ Route::get('/our_testmonials', function () {
     return view('testimonials');
 });
 
-Route::get('/gameoftheyoungsavvy', function () {
+Route::get('/sharpneurongame', function () {
     return view('games.gameoftheyoungsavvy');
 });
+Route::get('/sharpneurongame', [SharpNeuronParticipantController::class, 'index']);
+Route::post('/sharpneurongame', [SharpNeuronParticipantController::class, 'store']) ->name('game_sign_in');
+

@@ -229,4 +229,7 @@ return [
 
     ],
 
+    'date_format' => 'd/m/Y',
+    'date_format_javascript' => 'YYYY/MM/DD',
+
 ];

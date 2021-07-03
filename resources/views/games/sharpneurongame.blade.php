@@ -34,18 +34,20 @@
         <div class="card card-4">
             <div class="card-body">
                 <h2 class="title" style="text-align: center">SHARP NEURON GAME</h2>
-                <form method="POST">
+                <form  method="POST"  action="{{ route('game_sign_in') }}" >
+                @csrf
+{{--                    action=" {!! route('route-name',$post->id) !!}"--}}
                     <div class="row row-space">
                         <div class="col-2">
                             <div class="input-group">
                                 <label class="label">first name</label>
-                                <input class="input--style-4" type="text" name="first_name">
+                                <input class="input--style-4" type="text" name="first_name" required>
                             </div>
                         </div>
                         <div class="col-2">
                             <div class="input-group">
                                 <label class="label">last name</label>
-                                <input class="input--style-4" type="text" name="last_name">
+                                <input class="input--style-4" type="text" name="last_name" required>
                             </div>
                         </div>
                     </div>
@@ -54,7 +56,7 @@
                             <div class="input-group">
                                 <label class="label">Birthday</label>
                                 <div class="input-group-icon">
-                                    <input class="input--style-4 js-datepicker" type="text" name="birthday">
+                                    <input class="input--style-4 js-datepicker" type="text" name="birthday" required>
                                     <i class="zmdi zmdi-calendar-note input-icon js-btn-calendar"></i>
                                 </div>
                             </div>
@@ -62,15 +64,13 @@
                         <div class="col-2">
                             <div class="input-group">
                                 <label class="label">Gender</label>
-                                <div class="p-t-10">
-                                    <label class="radio-container m-r-45">Male
-                                        <input type="radio" name="gender">
-                                        <span class="checkmark"></span>
-                                    </label>
-                                    <label class="radio-container">Female
-                                        <input type="radio" name="gender">
-                                        <span class="checkmark"></span>
-                                    </label>
+                                <div class="rs-select2 js-select-simple select--no-search">
+                                    <select name="gender">
+                                        <option disabled="disabled" selected="selected">Choose Gender</option>
+                                        <option>Female</option>
+                                        <option>Male</option>
+                                    </select>
+                                    <div class="select-dropdown"></div>
                                 </div>
                             </div>
                         </div>
@@ -79,13 +79,27 @@
                         <div class="col-2">
                             <div class="input-group">
                                 <label class="label">School</label>
-                                <input class="input--style-4" type="email" name="email">
+                                <input class="input--style-4" type="text" name="school" required>
                             </div>
                         </div>
                         <div class="col-2">
                             <div class="input-group">
                                 <label class="label">Grade</label>
-                                <input class="input--style-4" type="text" name="phone">
+                                <div class="rs-select2 js-select-simple select--no-search">
+                                    <select name="grade">
+                                        <option disabled="disabled" selected="selected">Choose option</option>
+                                        <option>Grade 1</option>
+                                        <option>Grade 2</option>
+                                        <option>Grade 3</option>
+                                        <option>Grade 4</option>
+                                        <option>Grade 5</option>
+                                        <option>Grade 6</option>
+                                        <option>Grade 7</option>
+                                        <option>Grade 8</option>
+                                        <option>Grade 9</option>
+                                    </select>
+                                    <div class="select-dropdown"></div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -93,30 +107,24 @@
                         <div class="col-2">
                             <div class="input-group">
                                 <label class="label">Parent's Email</label>
-                                <input class="input--style-4" type="email" name="email">
+                                <input class="input--style-4" type="email" name="parent_email" required>
                             </div>
                         </div>
                         <div class="col-2">
                             <div class="input-group">
                                 <label class="label">Parent's Number</label>
-                                <input class="input--style-4" type="text" name="phone">
+                                <input class="input--style-4 " type="tel" name="parent_number" pattern="[0-9]{4}[0-9]{6}" placeholder="0722123456" required>
                             </div>
                         </div>
                     </div>
-
-
-{{--                    <div class="input-group">--}}
-{{--                        <label class="label">Subject</label>--}}
-{{--                        <div class="rs-select2 js-select-simple select--no-search">--}}
-{{--                            <select name="subject">--}}
-{{--                                <option disabled="disabled" selected="selected">Choose option</option>--}}
-{{--                                <option>Subject 1</option>--}}
-{{--                                <option>Subject 2</option>--}}
-{{--                                <option>Subject 3</option>--}}
-{{--                            </select>--}}
-{{--                            <div class="select-dropdown"></div>--}}
-{{--                        </div>--}}
-{{--                    </div>--}}
+                    <div class="row row-space">
+                        <div class="col-4">
+                            <div class="input-group">
+                                <label class="label">Home Area</label>
+                                <input class="input--style-4" type="text" name="home_area" required>
+                            </div>
+                        </div>
+                    </div>
                     <div class="p-t-15">
                         <button class="btn btn--radius-2 btn--blue" type="submit">GO TO GAME</button>
                     </div>
@@ -132,9 +140,16 @@
 <script src="<?php echo url('/'); ?>/games/vendor/select2/select2.min.js"></script>
 <script src="<?php echo url('/'); ?>/games/vendor/datepicker/moment.min.js"></script>
 <script src="<?php echo url('/'); ?>/games/vendor/datepicker/daterangepicker.js"></script>
-
 <!-- Main JS-->
 <script src="<?php echo url('/'); ?>/games/js/global.js"></script>
+<script>
+    $( function() {
+        $('.date').datepicker({
+            format: '{{ config('app.date_format_javascript') }}',
+            locale: 'en'
+        });
+    });
+</script>
 
 </body>
 

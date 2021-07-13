@@ -59,9 +59,11 @@ Route::get('/our_testmonials', function () {
     return view('testimonials');
 });
 
-Route::get('/sharpneurongame', function () {
-    return view('games.gameoftheyoungsavvy');
-});
-Route::get('/sharpneurongame', [SharpNeuronParticipantController::class, 'index']);
-Route::post('/sharpneurongame', [SharpNeuronParticipantController::class, 'store']) ->name('game_sign_in');
 
+Route::get('/RoboticsAndProgrammingRegistration', [SharpNeuronParticipantController::class, 'index'])->name('registration_form');
+Route::post('RoboticsAndProgrammingRegistration', [SharpNeuronParticipantController::class, 'store']) ->name('game_sign_in');
+
+
+Route::get('/Free_Robotics_and_Coding_Class', function () {
+    return view('games.registrationresponse');
+})->name('registration_response');

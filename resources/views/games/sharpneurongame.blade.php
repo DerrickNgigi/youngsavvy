@@ -12,7 +12,7 @@
     <link rel="shortcut icon" type="image/x-icon" href="<?php echo url('/'); ?>/images/YoungSavvy.png">
 
     <!-- Title Page-->
-    <title>GAME OF THE YOUNG SAVVIES</title>
+    <title>Free Robotics and Coding Class </title>
 
     <!-- Icons font CSS-->
     <link href="<?php echo url('/'); ?>/games/vendor/mdi-font/css/material-design-iconic-font.min.css" rel="stylesheet" media="all">
@@ -33,7 +33,7 @@
     <div class="wrapper wrapper--w680">
         <div class="card card-4">
             <div class="card-body">
-                <h2 class="title" style="text-align: center">SHARP NEURON GAME</h2>
+                <h2 class="title" style="text-align: center">Free Robotics and Coding Class</h2>
                 <form  method="POST"  action="{{ route('game_sign_in') }}" >
                 @csrf
 {{--                    action=" {!! route('route-name',$post->id) !!}"--}}
@@ -126,7 +126,7 @@
                         </div>
                     </div>
                     <div class="p-t-15">
-                        <button class="btn btn--radius-2 btn--blue" type="submit">GO TO GAME</button>
+                        <button class="btn btn--radius-2 btn--blue" type="submit">Register</button>
                     </div>
                 </form>
             </div>

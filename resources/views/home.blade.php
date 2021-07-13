@@ -39,7 +39,7 @@
                             <div class="desc white-color mb-10 wow fadeInRight" data-wow-delay="400ms" data-wow-duration="3000ms">Exploring Science, Engineering and Technology Concepts</div>
 {{--                            <div class="desc white-color mb-40 wow fadeInRight" data-wow-delay="400ms" data-wow-duration="3000ms">Cohort One begins April 5th. Register Now</div>--}}
                             <div class="banner-btn wow fadeInUp" data-wow-delay="500ms" data-wow-duration="3000ms">
-                                <a class="readon2 banner-style" href="/RoboticsAndProgrammingRegistration">Click to Register</a>
+                                <a class="readon2 banner-style" href="/RoboticsAndProgrammingRegistration">Free Class Registration</a>
                             </div>
                         </div>
                     </div>

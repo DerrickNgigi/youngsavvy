@@ -53,7 +53,8 @@ class SharpNeuronParticipantController extends Controller
         $child_Info = $request->all();
         $child_Info['birthday'] = Carbon::createFromFormat(config('app.date_format'), $request->birthday)->format('Y-m-d');
         sharpNeuronParticipant::create($child_Info );
-        return redirect()->away('https://kahoot.it/');
+//        return redirect()->away('https://kahoot.it/');
+        return redirect()->route('registration_response');
     }
 
     /**
